@@ -1,0 +1,26 @@
+.adm{background:#f6f3e4}
+.adm-top{background:var(--ink);color:#fff;position:sticky;top:0;z-index:50}
+.adm-in{max-width:1240px;margin:0 auto;padding:10px 24px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.adm-top .brand{color:var(--y);font-size:1.4rem}.adm-top small{font:700 .7rem Nunito;letter-spacing:.12em;text-transform:uppercase;background:var(--y);color:var(--ink);padding:3px 8px;border-radius:99px;margin-left:6px;vertical-align:middle}
+.adm-nav{display:flex;gap:4px;margin-right:auto}.adm-nav a{color:#f3eadb;text-decoration:none;font-weight:700;padding:8px 16px;border-radius:99px;transition:background .2s}
+.adm-nav a:hover{background:rgba(255,255,255,.12)}.adm-nav a[aria-current=page]{background:var(--y);color:var(--ink)}
+.adm-act{display:flex;gap:8px;align-items:center}.adm-act form{margin:0}
+.btn-sm{padding:8px 16px;min-height:40px;font-size:.92rem}.adm-top .btn-dark{background:transparent;color:#fff;border-color:#fff}
+.adm-main{max-width:1240px;margin:0 auto;padding:32px 24px 80px}.adm-main h1{font-size:2rem;margin-bottom:16px}.adm-main h2{font-size:1.4rem;margin:32px 0 12px}
+.head-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:20px}
+.tile{padding:22px;transition:none}.tile:hover{transform:none;box-shadow:var(--sh)}.tile b{display:block;font:800 2rem "Baloo 2"}.tile span{color:var(--soft);font-weight:700}
+.tile.good b{color:var(--ok)}.tile.warn{background:#fef3c7}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}.filters input,.filters select{padding:10px 14px;border:2px solid var(--line);border-radius:14px;font:inherit;background:#fff;min-width:200px}
+.adm .tbl td small{color:var(--soft)}.num-c{white-space:nowrap}.empty-c{text-align:center;color:var(--soft);padding:32px!important}
+.tbl tr:hover td{background:#fffdf2}
+.pill{display:inline-block;padding:4px 12px;border-radius:99px;font:800 .78rem/1.4 Nunito;white-space:nowrap}
+.st-pendiente{background:#fef3c7;color:#78350f}.st-pagado{background:#dcfce7;color:#14532d}.st-entregado{background:#dbeafe;color:#1e3a8a}.st-cancelado{background:#fee2e2;color:#7f1d1d}
+.acts{white-space:nowrap}.mini{border:2px solid var(--ink);background:#fff;border-radius:99px;padding:5px 12px;font:800 .8rem Nunito;cursor:pointer;margin:2px;transition:transform .2s var(--spring)}
+.mini:hover{transform:translateY(-2px)}.mini.ok{background:var(--y)}.mini.bad{border-color:var(--bad);color:var(--bad)}.mini:disabled{opacity:.4}
+.adm .qty{display:inline-flex}.adm .qty input{width:72px}
+.login-page{display:grid;place-items:center;min-height:100vh;padding:24px}
+.login-card{width:min(400px,100%);padding:36px 32px;text-align:center}.login-card:hover{transform:none}
+.login-card h1{font-size:2rem;margin:10px 0 4px}.login-card form{text-align:left;margin-top:16px}.login-card .fine{margin-top:16px}
+.login-card>img{margin:0 auto}
+.adm-top .brand img{height:38px}.login-card>img{width:150px;height:auto}

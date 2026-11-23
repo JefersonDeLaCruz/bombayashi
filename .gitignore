@@ -1,0 +1,5 @@
+node_modules/
+.env
+# datos locales de la demo (pedidos con datos de clientes de prueba, stock, mensajes)
+cocina/data/*.json
+.DS_Store

@@ -1,0 +1,9 @@
+{
+  "name": "bombayashi-cocina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panadería Bombayashi · tienda en línea (Node.js, sin dependencias)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "DEV=1 node --watch --watch-path=lib --watch-path=server.js server.js" },
+  "engines": { "node": ">=18" }
+}
